@@ -20,6 +20,11 @@ h2 {
     font-size: 15em;
 }
 
+p {
+    font-family: 'CircularStd-Book', sans-serif;
+    font-size: 4em;
+}
+
 li {
     font-family: 'CircularStd-Book', sans-serif;
     font-size: 2em;
