@@ -1,0 +1,53 @@
+/* global type */
+@font-face {
+    font-family: 'CircularStd-Bold';
+    src: url('/assets/fonts/CircularStd-Bold.otf') format('otf');
+}
+
+@font-face {
+    font-family: 'CircularStd-Book';
+    src: url('/assets/fonts/CircularStd-Book.otf') format('otf');
+}
+
+/* font sizes */
+h1 {
+    font-family: 'CircularStd-Book', sans-serif;
+    font-size: 2em;
+}
+
+h2 {
+    font-family: 'CircularStd-Bold', sans-serif;
+    font-size: 15em;
+}
+
+li {
+    font-family: 'CircularStd-Book', sans-serif;
+    font-size: 2em;
+    list-style: none;
+    line-height: 1.15;
+    text-align: right;
+}
+
+/* lines & arrows */
+.vl {
+    border-left: 5px solid black;
+    width: 100%; 
+}
+
+hr {
+    border-top: 5px solid black;
+}
+
+.container {
+    margin: 2em;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.arrow1 {
+    position: absolute;
+    border: 5px solid #000000;
+    box-sizing: border-box;
+    transform: rotate(90deg);
+}
+
