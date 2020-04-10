@@ -71,6 +71,11 @@ hr {
     margin-bottom: 2em;
 }
 
+.arrow img {
+    width: 20%;
+    height: 20%;
+}
+
 /* margins */
 section[class^="row"] {
     margin-top: 6em;
