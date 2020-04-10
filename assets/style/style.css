@@ -15,6 +15,10 @@ body {
 }
 
 /* font sizes */
+@media screen and (max-width: 640px) {
+    body{font-size: 50%;}
+}
+
 h1 {
     font-family: 'CircularStd-Book', sans-serif;
     font-size: 2em;
@@ -77,12 +81,20 @@ hr {
 }
 
 /* margins */
+.landing {
+    overflow-x: hidden;
+}
+
 section[class^="row"] {
     margin-top: 6em;
 }
 
 .about, .footer, .footnote {
     margin-top: 0 !important;
+}
+
+.about-text {
+    margin-bottom: 2em;
 }
 
 .intro, .hello {
@@ -94,7 +106,9 @@ section[class^="row"] {
 .projects {
     vertical-align: top;
     overflow: hidden;
-    align-items: center;
+    justify-content: center;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
 .container {
