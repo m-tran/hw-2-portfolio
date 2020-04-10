@@ -58,6 +58,11 @@ li {
     text-align: right;
 }
 
+ul {
+    padding-left: 0;
+    padding-right: 2em;
+}
+
 .sub {
     color: #cfcfcf;
     font-size: 0.75em;
