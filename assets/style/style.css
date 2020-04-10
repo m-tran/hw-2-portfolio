@@ -22,7 +22,7 @@ main {
 /* font sizes */
 @media screen and (max-width: 640px) {
     body{font-size: 50%;}
-    h2 {font-size: 5.5em;}
+    h2 {font-size: 7.5em;}
 }
 
 h1 {
