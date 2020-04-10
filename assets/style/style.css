@@ -9,6 +9,11 @@
     src: url('/assets/fonts/CircularStd-Book.otf') format('otf');
 }
 
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
 /* font sizes */
 h1 {
     font-family: 'CircularStd-Book', sans-serif;
@@ -67,12 +72,18 @@ hr {
 }
 
 /* margins */
+section[class^="row"] {
+    margin-top: 6em;
+}
 
-.intro {
-    margin: 7em 0 2em 0;
+.footer, .footnote {
+    margin-top: 0 !important;
+}
+
+.intro, .hello {
     height: 100%;
     align-items: center;
-    padding: 2em;
+    padding: 0 2em 2em 2em;
 }
 
 .projects {
@@ -106,5 +117,17 @@ nav {
 
 .projects img {
     width: 100%;
+    border: 5px solid black;
+    box-shadow: 5px 10px black;
+    margin-bottom: 2em;
+}
+
+.footnote {
+    padding: 1em 2em 1em 2em;
+    justify-content: space-between;
+}
+
+.city {
+    text-align: right;
 }
 
