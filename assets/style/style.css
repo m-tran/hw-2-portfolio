@@ -16,7 +16,7 @@ body {
 
 main {
     position: relative;
-    min-height: auto;
+    min-height: 55vh;
 }
 
 /* font sizes */
@@ -89,6 +89,7 @@ hr {
 /* margins */
 .text-art {
     text-align: center;
+    vertical-align: center;
 }
 
 .landing {
@@ -97,6 +98,7 @@ hr {
 
 section[class^="row"] {
     margin-top: 6em;
+    padding: 2em;
 }
 
 .about, .footer, .footnote {
@@ -110,7 +112,16 @@ section[class^="row"] {
 .intro, .hello {
     height: 100%;
     align-items: center;
-    padding: 0 2em 2em 2em;
+    padding-left: 2em;
+}
+
+.intro {
+    padding-top: 6em;
+    padding-bottom: 4em;
+}
+
+.about-links {
+    padding-bottom: 6em;
 }
 
 .projects {
@@ -119,11 +130,11 @@ section[class^="row"] {
     justify-content: center;
     padding-left: 2em;
     padding-right: 2em;
+    margin-top: 6em;
 }
 
 .container {
     max-width: 100%;
-    padding: 2em;
 }
 
 nav {
@@ -151,11 +162,10 @@ nav {
     margin-bottom: 2em;
 }
 
-footer {
-    margin-top: auto;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+
+.container .footer-line {
+    margin: 0;
+    padding: 0;
 }
 
 .footnote {
