@@ -87,6 +87,10 @@ hr {
 }
 
 /* margins */
+.text-art {
+    text-align: center;
+}
+
 .landing {
     overflow-x: hidden;
 }
